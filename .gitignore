@@ -1,0 +1,10 @@
+# Ignore Python compilation files
+__pycache__/
+*.pyc
+
+# Ignore Spark's localized metadata and checkpointing streams
+_spark_metadata/
+.checkpoint/
+
+# Ignore local Delta Lake parquet storage tables
+/delta_lake/
